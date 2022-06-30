@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset= "UTF-8">
+	<title>My Personal Webpage</title>
+<body>
+
+<ul>
+<tr>
+<nav>
+<header>
+<a href="index.html">
+<p align="center">
+</head>
+<a/>
+<center>
+<table cellspacing="5" cellpadding="5">
+</nav>
+<nav>
+<td><a href="home.html">Home</a></td>
+<td><a href="about.html">About me</a></td>
+<td><a href="education.html">Education</a></td>
+<td><a href="hobby.html">Hobby</a></td>
+</div>
+</tr>
+</table>
+</nav>
+</center>
+</ul>
+</nav>
+</header>
+<hr>
+<center>
+<font size="4"><span id="greeting"></span>
+<span id="displayDateTime"></span>
+</center>
+<ul>
+
+<div class="content">
+<img src="img/home.jpg" width="600px" height="500px" align="right">
+<h1><center><font size="4" face="san serif" color="black">A FUTURE WEB DEVELOPER</font></center></p>
+<h1><font size="6"color="black"><i><center>I'm </i><span><i><font color="blue" face="vivaldi"</i>Koby.</span></center></h1>
+<p><font size="3" face="sylfaen" color="white"> <center>WELCOME TO MY PERSONAL WEBPAGE</br>Enjoy and stay safe everyone...</center></p>
+<p><font size="6" face="sylfaen" color="white"> <center>
+</center></p>
+<body bgcolor=gray>
+</ul>
+
+<hr>
+<p><font face="verdana" size="3">&copy Created by <font face="verdana" size="3"><i>KOBY</i>          |          Aright Reserved</font></p>
+
+<script>
+	var today = new Date()
+	var day = today.getDay();
+
+	var daylist = ["Sunday,","Monday,",",","Wednesday,","Thursday,","Friday,","Saturday,"];
+	var date = today.getFullYear()+ '-' + (today.getMonth()+1)+'-'+today.getDate();
+
+	var time = today.getHours()+ ":" + today.getMinutes() + ":" + today.getSeconds();
+	var dateTime = date + ' ' + time;
+
+	document.getElementById ("displayDateTime").innerHTML = 'Today is' + '&nbsp;'+ daylist[day] + '&nbsp;' + dateTime;
+document.write("<center><font size=+3 style='color:green;");
+
+	var myDate = new Date();
+	var hrs = myDate.getHours();
+	var greeting;
+
+	if (hrs < 12)
+		greeting = 'Good Morning!';
+
+	else if (hrs >= 12 && hrs <= 17)
+			greeting = 'Good Afternoon!';
+
+	else if (hrs >= 17 && hrs <=24)
+		greeting = 'Good Evening!';
+
+		document.getElementById ('greeting').innerHTML = 'Hello' +  '&nbsp;' + greeting;
+</script>
+</body>
+</html>
